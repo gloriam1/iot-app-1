@@ -23,7 +23,7 @@ def hello_world():
 
 @app.route('/')
 def index():
-    name = "Sei un patatino"
+    name = "Mi chiamo Manuel"
     return render_template('index.html', name=name)
 
 '''
